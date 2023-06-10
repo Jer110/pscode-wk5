@@ -1,0 +1,47 @@
+//Exercise 1: I'm using javaScipt to define the variables
+var num1 = 5
+var num2 = 2 
+
+// the equation to add the intergers 
+var sum = num1 + num2 
+
+//I am telling the console to print the sum of the two variables 
+console.log('The sum is:' + sum)
+
+//Exercise 2: using javascript, if a number is a percent of 2 with a zero remainder then it's odd, otherwise it's even
+if(number % 2==0){
+    //the number is even
+}
+else {
+
+    //The number is odd 
+}
+
+If r==0, print "even"
+if r!=0, print "odd"
+
+//Exercise 3a: I had to research how to find the average for an array in javaScript, I found jsowl.com that gave me this example. 
+
+var myArray = [1,2,3,4,5]
+
+const sum = myArray.reduce((a, b) => a + b, 0);
+
+const average = (sum / myArray.length) || 0;
+
+console.log('The sum is: ${sum}. The average is: ${average}.)
+// The sum is: 15. The average is: 3.
+//I told the computer to print the average to the console. 
+//I have done some javascript with codecademy and The Odin Project previously so using javascript was the best way I could think to do this project. 
+
+//Exercise 3b:I used javascript to find the minimum and maximum numbers in my array, 
+
+var array = [1,2,3,4,5];
+
+let minValue = Math.min(array);
+let maxValue = Math.max(array);
+
+console.log("Minimum value is:" + 'minValue'.);
+Console.log("Maximum value is:" + 'maxValue'.);
+
+// "Minimum value is: 1. Maximum value is: 5. 
+// I used ws3docs, geeksforgeeks.org, and mdn webdocs to help create this. 
